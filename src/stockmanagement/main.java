@@ -36,7 +36,7 @@ public class main extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("D:\\BIU-Exellence in Education for Developpement\\course\\semester 5\\5 HMI\\stockManagement\\icons\\ikigega.jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\aimab\\.project\\BIU\\HMI\\stockManagement\\icons\\ikigega.jpg")); // NOI18N
 
         jButton3.setText("Client");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
