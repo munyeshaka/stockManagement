@@ -244,8 +244,44 @@ public class Home extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jTreeMenuMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTreeMenuMouseClicked
-        signupAdmin si = new signupAdmin();
-        si.setVisible(true);// TODO add your handling code here:
+        String jtreevar = jTreeMenu.getSelectionModel().toString();
+        if(jtreevar.contains("Supplies")) {
+            supplies s = new supplies();
+            s.setVisible(true);
+            this.setVisible(false);
+        }
+        
+        if(jtreevar.contains("Order")) {
+            order o = new order();
+            o.setVisible(true);
+            this.setVisible(false);
+        }
+            
+        else if(jtreevar.contains("Demand")) {
+            demands d = new demands();
+            d.setVisible(true);
+            this.setVisible(false);
+        }
+            
+            
+        if(jtreevar.contains("Provider")) {
+            provider p = new provider();
+            p.setVisible(true);
+            this.setVisible(false);
+        }
+            
+        if(jtreevar.contains("Admin")) {
+            signupAdmin sa = new signupAdmin();
+            sa.setVisible(true);
+            this.setVisible(false);
+        }
+            
+        if(jtreevar.contains("Documentation")) {
+            documentation do = new documentation();
+            do.setVisible(true);
+            this.setVisible(false);
+        }
+          
     }//GEN-LAST:event_jTreeMenuMouseClicked
 
     /**
