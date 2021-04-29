@@ -4,9 +4,7 @@
  * and open the template in the editor.
  */
 package stockmanagement;
- *
- * @author HP
- */
+
 public class documentationClient extends javax.swing.JFrame {
 
     /**
