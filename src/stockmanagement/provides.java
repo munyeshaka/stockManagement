@@ -53,7 +53,7 @@ public class provides extends javax.swing.JFrame {
         jLabel5.setText("PROVIDES");
 
         jLabel2.setFont(new java.awt.Font("SansSerif", 1, 16)); // NOI18N
-        jLabel2.setText("Product_name:");
+        jLabel2.setText("Product name:");
 
         jLabel3.setFont(new java.awt.Font("SansSerif", 1, 16)); // NOI18N
         jLabel3.setText("Category:");
@@ -88,7 +88,7 @@ public class provides extends javax.swing.JFrame {
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         jLabel6.setFont(new java.awt.Font("SansSerif", 1, 16)); // NOI18N
-        jLabel6.setText("Product_ype:");
+        jLabel6.setText("Product type:");
 
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
@@ -167,7 +167,7 @@ public class provides extends javax.swing.JFrame {
                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jButton2)
                     .addComponent(jButton3)
                     .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))

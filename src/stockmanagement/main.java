@@ -38,6 +38,8 @@ public class main extends javax.swing.JFrame {
 
         jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\aimab\\.project\\BIU\\HMI\\stockManagement\\icons\\ikigega.jpg")); // NOI18N
 
+        jButton3.setBackground(new java.awt.Color(96, 83, 150));
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("Client");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -45,6 +47,8 @@ public class main extends javax.swing.JFrame {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(96, 83, 150));
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Provider");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -52,6 +56,9 @@ public class main extends javax.swing.JFrame {
             }
         });
 
+        jButton1.setBackground(new java.awt.Color(96, 83, 150));
+        jButton1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Admin");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -88,6 +95,7 @@ public class main extends javax.swing.JFrame {
         );
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(96, 83, 150));
         jLabel1.setText("Stock management application");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -108,15 +116,15 @@ public class main extends javax.swing.JFrame {
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(131, Short.MAX_VALUE))
+                .addContainerGap(128, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        admin a = new admin();
-        a.setVisible(true);
+        Home h = new Home();
+        h.setVisible(true);
         this.setVisible(false);// TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
