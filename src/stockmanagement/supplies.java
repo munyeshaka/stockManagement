@@ -98,6 +98,7 @@ public class supplies extends javax.swing.JFrame {
         jScrollPane1.setViewportView(jTable1);
 
         jPanel2.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel2.setBorder(new javax.swing.border.MatteBorder(null));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel1.setText("Product name:");
@@ -301,8 +302,8 @@ public class supplies extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(15, 15, 15)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(17, 17, 17)
+                .addComponent(jButton1)
+                .addGap(12, 12, 12)
                 .addComponent(jLabel5)
                 .addGap(14, 14, 14)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
