@@ -231,6 +231,9 @@ public class supplies extends javax.swing.JFrame {
                 .addGap(18, 18, 18))
         );
 
+        jButton9.setBackground(new java.awt.Color(96, 83, 150));
+        jButton9.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton9.setForeground(new java.awt.Color(255, 255, 255));
         jButton9.setText("Research");
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
@@ -310,7 +313,7 @@ public class supplies extends javax.swing.JFrame {
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                     .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 348, Short.MAX_VALUE))
-                .addContainerGap(132, Short.MAX_VALUE))
+                .addContainerGap(130, Short.MAX_VALUE))
         );
 
         pack();
