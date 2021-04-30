@@ -114,24 +114,29 @@ public class supplies extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel4.setText("Provider:");
 
-        jButton13.setBackground(new java.awt.Color(96, 83, 150));
+        jButton13.setBackground(new java.awt.Color(108, 99, 255));
         jButton13.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton13.setForeground(new java.awt.Color(255, 255, 255));
         jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmanagement/files/modifyButtonIcon.png"))); // NOI18N
         jButton13.setText("Modify ");
 
-        jButton7.setBackground(new java.awt.Color(96, 83, 150));
+        jButton7.setBackground(new java.awt.Color(108, 99, 255));
         jButton7.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton7.setForeground(new java.awt.Color(255, 255, 255));
         jButton7.setText("Approve ");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
 
-        jButton11.setBackground(new java.awt.Color(96, 83, 150));
+        jButton11.setBackground(new java.awt.Color(108, 99, 255));
         jButton11.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton11.setForeground(new java.awt.Color(255, 255, 255));
         jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmanagement/files/Subm.png"))); // NOI18N
         jButton11.setText("Submit ");
 
-        jButton10.setBackground(new java.awt.Color(96, 83, 150));
+        jButton10.setBackground(new java.awt.Color(108, 99, 255));
         jButton10.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton10.setForeground(new java.awt.Color(255, 255, 255));
         jButton10.setText("Disapprove ");
@@ -141,7 +146,7 @@ public class supplies extends javax.swing.JFrame {
             }
         });
 
-        jButton12.setBackground(new java.awt.Color(96, 83, 150));
+        jButton12.setBackground(new java.awt.Color(108, 99, 255));
         jButton12.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton12.setForeground(new java.awt.Color(255, 255, 255));
         jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmanagement/files/deleteButtonIcon.png"))); // NOI18N
@@ -234,7 +239,7 @@ public class supplies extends javax.swing.JFrame {
                 .addGap(18, 18, 18))
         );
 
-        jButton9.setBackground(new java.awt.Color(96, 83, 150));
+        jButton9.setBackground(new java.awt.Color(108, 99, 255));
         jButton9.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton9.setForeground(new java.awt.Color(255, 255, 255));
         jButton9.setText("Research");
@@ -264,7 +269,7 @@ public class supplies extends javax.swing.JFrame {
         });
         jScrollPane2.setViewportView(jTreeMenu);
 
-        jButton1.setBackground(new java.awt.Color(96, 83, 150));
+        jButton1.setBackground(new java.awt.Color(108, 99, 255));
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmanagement/files/logout_1.png"))); // NOI18N
@@ -404,6 +409,10 @@ public class supplies extends javax.swing.JFrame {
         m.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton7ActionPerformed
 
     /**
      * @param args the command line arguments

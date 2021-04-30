@@ -3,11 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/stockManagement/src/stockmanagement/main.java</file>
-            <file>file:/C:/stockManagement/src/stockmanagement/MainAdmin.java</file>
-            <file>file:/C:/stockManagement/src/stockmanagement/ProviderLogin.java</file>
-            <file>file:/C:/stockManagement/src/stockmanagement/provides.java</file>
-            <file>file:/C:/stockManagement/src/stockmanagement/demands.java</file>
+            <file>file:/C:/Users/aimab/.project/BIU/HMI/stockManagement/src/stockmanagement/admin.java</file>
+            <file>file:/C:/Users/aimab/.project/BIU/HMI/stockManagement/src/stockmanagement/disapprove.java</file>
+            <file>file:/C:/Users/aimab/.project/BIU/HMI/stockManagement/src/stockmanagement/demands.java</file>
+            <file>file:/C:/Users/aimab/.project/BIU/HMI/stockManagement/src/stockmanagement/ProviderLogin.java</file>
+            <file>file:/C:/Users/aimab/.project/BIU/HMI/stockManagement/src/stockmanagement/signupClient.java</file>
+            <file>file:/C:/Users/aimab/.project/BIU/HMI/stockManagement/src/stockmanagement/client.java</file>
+            <file>file:/C:/Users/aimab/.project/BIU/HMI/stockManagement/src/stockmanagement/documentationClient.java</file>
+            <file>file:/C:/Users/aimab/.project/BIU/HMI/stockManagement/src/stockmanagement/signupAdmin.java</file>
+            <file>file:/C:/Users/aimab/.project/BIU/HMI/stockManagement/src/stockmanagement/provider.java</file>
+            <file>file:/C:/Users/aimab/.project/BIU/HMI/stockManagement/src/stockmanagement/documentation.java</file>
+            <file>file:/C:/Users/aimab/.project/BIU/HMI/stockManagement/src/stockmanagement/supplies.java</file>
+            <file>file:/C:/Users/aimab/.project/BIU/HMI/stockManagement/src/stockmanagement/provides.java</file>
+            <file>file:/C:/Users/aimab/.project/BIU/HMI/stockManagement/src/stockmanagement/order.java</file>
         </group>
     </open-files>
 </project-private>
