@@ -2,19 +2,8 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-<<<<<<< HEAD
-        <group/>
-=======
         <group>
-            <file>file:/C:/stockManagement/src/stockmanagement/loginClient.java</file>
             <file>file:/C:/stockManagement/src/stockmanagement/main.java</file>
-            <file>file:/C:/stockManagement/src/stockmanagement/provider.java</file>
-            <file>file:/C:/stockManagement/src/stockmanagement/Home.java</file>
-            <file>file:/C:/stockManagement/src/stockmanagement/MainAdmin.java</file>
-            <file>file:/C:/stockManagement/src/stockmanagement/ProviderLogin.java</file>
-            <file>file:/C:/stockManagement/src/stockmanagement/provides.java</file>
-            <file>file:/C:/stockManagement/src/stockmanagement/ProviderManagement.java</file>
         </group>
->>>>>>> 294ee4c4832881a57cfcf8842daf2ce29fba0535
     </open-files>
 </project-private>
