@@ -61,7 +61,7 @@ public class provider extends javax.swing.JFrame {
 
         jLabel3.setText("Address:");
 
-        jLabel5.setText("categorie:");
+        jLabel5.setText("category:");
 
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -206,7 +206,7 @@ public class provider extends javax.swing.JFrame {
         jScrollPane1.setViewportView(jTable1);
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(96, 83, 150));
+        jLabel6.setForeground(new java.awt.Color(108, 99, 255));
         jLabel6.setText("Provider");
 
         jTextField5.addActionListener(new java.awt.event.ActionListener() {

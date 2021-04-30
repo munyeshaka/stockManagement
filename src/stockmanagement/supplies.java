@@ -238,7 +238,7 @@ public class supplies extends javax.swing.JFrame {
         jButton9.setText("Research");
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(96, 83, 150));
+        jLabel5.setForeground(new java.awt.Color(108, 99, 255));
         jLabel5.setText("Supplies");
 
         javax.swing.tree.DefaultMutableTreeNode treeNode1 = new javax.swing.tree.DefaultMutableTreeNode("Menu");
