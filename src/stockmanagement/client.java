@@ -49,7 +49,7 @@ public class client extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 204));
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("SansSerif", 1, 36)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(96, 83, 150));
         jLabel6.setText("Welcome Client");
 
@@ -65,13 +65,13 @@ public class client extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(96, 83, 150));
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setIcon(new javax.swing.ImageIcon("E:\\docs\\Human Computer Interface\\stockManagement-main (1)\\stockManagement-main\\icons\\add1.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmanagement/files/add1.png"))); // NOI18N
         jButton1.setText("Add in chart");
 
         jButton2.setBackground(new java.awt.Color(96, 83, 150));
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setIcon(new javax.swing.ImageIcon("E:\\docs\\Human Computer Interface\\stockManagement-main (1)\\stockManagement-main\\icons\\bba.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmanagement/files/bba.png"))); // NOI18N
         jButton2.setText("Buy");
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
