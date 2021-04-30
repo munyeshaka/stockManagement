@@ -88,8 +88,9 @@ public class loginClient extends javax.swing.JFrame {
             }
         });
 
-        jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("SansSerif", 1, 36)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(96, 83, 150));
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmanagement/files/man.png"))); // NOI18N
         jLabel8.setText("Client");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -148,7 +149,6 @@ public class loginClient extends javax.swing.JFrame {
         jButton3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmanagement/files/Go back3.png"))); // NOI18N
-        jButton3.setActionCommand("");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
