@@ -49,7 +49,7 @@ public class main extends javax.swing.JFrame {
         jLabel1.setText("Stock management application");
 
         jButton1.setBackground(new java.awt.Color(108, 99, 255));
-        jButton1.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Admin");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -69,7 +69,7 @@ public class main extends javax.swing.JFrame {
         jLabel4.setText("Provide Our Stock");
 
         jButton2.setBackground(new java.awt.Color(108, 99, 255));
-        jButton2.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Provider");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -84,7 +84,7 @@ public class main extends javax.swing.JFrame {
         jLabel7.setText("Buy a product");
 
         jButton3.setBackground(new java.awt.Color(108, 99, 255));
-        jButton3.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("Client");
         jButton3.addActionListener(new java.awt.event.ActionListener() {

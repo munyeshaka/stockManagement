@@ -43,21 +43,25 @@ public class ProviderLogin extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 204));
 
-        jLabel3.setFont(new java.awt.Font("SansSerif", 1, 36)); // NOI18N
+        jLabel3.setBackground(new java.awt.Color(108, 99, 255));
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(108, 99, 255));
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmanagement/files/loginTitle.png"))); // NOI18N
         jLabel3.setText("PROVIDER LOGIN");
 
-        jLabel1.setFont(new java.awt.Font("SansSerif", 1, 16)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel1.setText("Username");
 
         jTextField1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        jLabel2.setFont(new java.awt.Font("SansSerif", 1, 16)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel2.setText("Password");
 
         jPasswordField1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        loginButton.setFont(new java.awt.Font("SansSerif", 1, 16)); // NOI18N
+        loginButton.setBackground(new java.awt.Color(108, 99, 255));
+        loginButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        loginButton.setForeground(new java.awt.Color(255, 255, 255));
         loginButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmanagement/files/loginButtonIcon.png"))); // NOI18N
         loginButton.setText("LOGIN");
         loginButton.addActionListener(new java.awt.event.ActionListener() {
@@ -66,7 +70,9 @@ public class ProviderLogin extends javax.swing.JFrame {
             }
         });
 
-        cancelButton.setFont(new java.awt.Font("SansSerif", 1, 16)); // NOI18N
+        cancelButton.setBackground(new java.awt.Color(108, 99, 255));
+        cancelButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        cancelButton.setForeground(new java.awt.Color(255, 255, 255));
         cancelButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmanagement/files/cancelButtonIcon.png"))); // NOI18N
         cancelButton.setText("CANCEL");
         cancelButton.setPreferredSize(new java.awt.Dimension(63, 23));
@@ -115,9 +121,9 @@ public class ProviderLogin extends javax.swing.JFrame {
                 .addContainerGap(75, Short.MAX_VALUE))
         );
 
-        jButton2.setBackground(new java.awt.Color(204, 204, 204));
-        jButton2.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(255, 255, 255));
+        jButton2.setBackground(new java.awt.Color(108, 99, 255));
+        jButton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(108, 99, 255));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmanagement/files/Go back3.png"))); // NOI18N
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -145,7 +151,7 @@ public class ProviderLogin extends javax.swing.JFrame {
                 .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(81, 81, 81)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(76, Short.MAX_VALUE))
+                .addContainerGap(77, Short.MAX_VALUE))
         );
 
         pack();
