@@ -48,10 +48,12 @@ public class documentationClient extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(204, 204, 204));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(96, 83, 150));
+        jLabel6.setForeground(new java.awt.Color(108, 99, 255));
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmanagement/files/books.png"))); // NOI18N
         jLabel6.setText("Documentation");
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmanagement/files/login_1.png"))); // NOI18N
         jLabel4.setText("Login Form ");
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -64,6 +66,7 @@ public class documentationClient extends javax.swing.JFrame {
         jLabel9.setText("If you want cancel or return you click to cancel* ");
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmanagement/files/outline_person_add_alt_black_24dp.png"))); // NOI18N
         jLabel5.setText("Signup ");
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -73,14 +76,15 @@ public class documentationClient extends javax.swing.JFrame {
         jLabel11.setText("If you want cancel or return you click to cancel* ");
 
         jLabel19.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel19.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel19.setForeground(new java.awt.Color(108, 99, 255));
         jLabel19.setText("If one of these operations above has been successfull,");
 
         jLabel21.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel21.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel21.setForeground(new java.awt.Color(108, 99, 255));
         jLabel21.setText(" it brings to main page");
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmanagement/files/outline_home_1.png"))); // NOI18N
         jLabel3.setText("Main page ");
 
         jLabel29.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -198,7 +202,7 @@ public class documentationClient extends javax.swing.JFrame {
                         .addComponent(jLabel13)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel14)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, 28, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))

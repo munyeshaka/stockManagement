@@ -290,7 +290,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/stockmanagement/files/logoutButtonIcon.png"/>
+              <Image iconType="3" name="/stockmanagement/files/logout_1.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Logout "/>
           </Properties>

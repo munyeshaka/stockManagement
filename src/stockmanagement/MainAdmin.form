@@ -25,7 +25,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
+              <EmptySpace min="0" pref="119" max="32767" attributes="0"/>
           </Group>
           <Component id="jPanel7" max="32767" attributes="0"/>
       </Group>
@@ -414,7 +414,7 @@
               </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="51" y="170" width="110" height="-1"/>
+                  <AbsoluteConstraints x="50" y="180" width="110" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -427,7 +427,7 @@
               </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="50" y="210" width="110" height="-1"/>
+                  <AbsoluteConstraints x="50" y="220" width="110" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -440,7 +440,7 @@
               </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="50" y="250" width="110" height="-1"/>
+                  <AbsoluteConstraints x="50" y="260" width="110" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -453,7 +453,7 @@
               </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="50" y="290" width="110" height="-1"/>
+                  <AbsoluteConstraints x="50" y="300" width="110" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -466,7 +466,7 @@
               </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="49" y="360" width="110" height="-1"/>
+                  <AbsoluteConstraints x="50" y="380" width="110" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -504,7 +504,7 @@
               </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="50" y="330" width="110" height="-1"/>
+                  <AbsoluteConstraints x="50" y="340" width="110" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -551,10 +551,10 @@
         <Component class="javax.swing.JLabel" name="jLabel6">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe UI" size="36" style="1"/>
+              <Font name="SansSerif" size="36" style="1"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="96" green="53" red="60" type="rgb"/>
+              <Color blue="ff" green="63" red="6c" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Welcome Admin"/>
           </Properties>
@@ -633,7 +633,7 @@
                   <Font name="Segoe UI" size="24" style="1"/>
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="96" green="53" red="60" type="rgb"/>
+                  <Color blue="ff" green="63" red="6c" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="10"/>
               </Properties>
@@ -644,7 +644,7 @@
                   <Font name="Segoe UI" size="12" style="0"/>
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="96" green="53" red="60" type="rgb"/>
+                  <Color blue="ff" green="63" red="6c" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Total"/>
               </Properties>
@@ -712,7 +712,7 @@
                   <Font name="Segoe UI" size="24" style="1"/>
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="96" green="53" red="60" type="rgb"/>
+                  <Color blue="ff" green="63" red="6c" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="270"/>
               </Properties>
@@ -723,7 +723,7 @@
                   <Font name="Segoe UI" size="12" style="0"/>
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="96" green="53" red="60" type="rgb"/>
+                  <Color blue="ff" green="63" red="6c" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Total"/>
               </Properties>
@@ -791,7 +791,7 @@
                   <Font name="Segoe UI" size="24" style="1"/>
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="96" green="53" red="60" type="rgb"/>
+                  <Color blue="ff" green="63" red="6c" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="200"/>
               </Properties>
@@ -802,7 +802,7 @@
                   <Font name="Segoe UI" size="12" style="0"/>
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="96" green="53" red="60" type="rgb"/>
+                  <Color blue="ff" green="63" red="6c" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Total"/>
               </Properties>

@@ -5,6 +5,8 @@
  */
 package stockmanagement;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author aimab
@@ -29,10 +31,10 @@ public class admin extends javax.swing.JFrame {
 
         jPanel4 = new javax.swing.JPanel();
         jBnAnnuler5 = new javax.swing.JButton();
-        jTFuser3 = new javax.swing.JTextField();
+        txtusername = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        jPassword3 = new javax.swing.JPasswordField();
+        txtpassword = new javax.swing.JPasswordField();
         jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
@@ -97,8 +99,8 @@ public class admin extends javax.swing.JFrame {
                                 .addComponent(jButton1)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 88, Short.MAX_VALUE)
                                 .addComponent(jBnAnnuler5))
-                            .addComponent(jTFuser3)
-                            .addComponent(jPassword3))
+                            .addComponent(txtusername)
+                            .addComponent(txtpassword))
                         .addGap(36, 36, 36))))
         );
         jPanel4Layout.setVerticalGroup(
@@ -108,12 +110,12 @@ public class admin extends javax.swing.JFrame {
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(40, 40, 40)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTFuser3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtusername, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel8))
                 .addGap(34, 34, 34)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel9)
-                    .addComponent(jPassword3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtpassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jBnAnnuler5)
@@ -189,11 +191,14 @@ public class admin extends javax.swing.JFrame {
     }//GEN-LAST:event_jBnAnnuler5ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        Home ho = new Home();
+        if(txtusername.getText().equals("") || txtpassword.getText().equals("")){
+         JOptionPane.showMessageDialog(null," username and password must be fill in!!!");
+        }else{
+        Dashboard ho = new Dashboard();
         ho.setVisible(true);
         this.setVisible(false);// TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
-
+    }
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         main m = new main();
         m.setVisible(true);
@@ -246,7 +251,7 @@ public class admin extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel7;
-    private javax.swing.JPasswordField jPassword3;
-    private javax.swing.JTextField jTFuser3;
+    private javax.swing.JPasswordField txtpassword;
+    private javax.swing.JTextField txtusername;
     // End of variables declaration//GEN-END:variables
 }

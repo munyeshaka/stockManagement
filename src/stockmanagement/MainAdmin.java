@@ -275,7 +275,7 @@ public class MainAdmin extends javax.swing.JFrame {
                 jButton9ActionPerformed(evt);
             }
         });
-        jPanel3.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(51, 170, 110, -1));
+        jPanel3.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 180, 110, -1));
 
         jButton10.setText("Demands ");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
@@ -283,7 +283,7 @@ public class MainAdmin extends javax.swing.JFrame {
                 jButton10ActionPerformed(evt);
             }
         });
-        jPanel3.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 210, 110, -1));
+        jPanel3.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 220, 110, -1));
 
         jButton11.setText("Provider ");
         jButton11.addActionListener(new java.awt.event.ActionListener() {
@@ -291,7 +291,7 @@ public class MainAdmin extends javax.swing.JFrame {
                 jButton11ActionPerformed(evt);
             }
         });
-        jPanel3.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 250, 110, -1));
+        jPanel3.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 260, 110, -1));
 
         jButton12.setText("Documentation");
         jButton12.addActionListener(new java.awt.event.ActionListener() {
@@ -299,7 +299,7 @@ public class MainAdmin extends javax.swing.JFrame {
                 jButton12ActionPerformed(evt);
             }
         });
-        jPanel3.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 290, 110, -1));
+        jPanel3.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, 110, -1));
 
         jButton13.setText("Logout ");
         jButton13.addActionListener(new java.awt.event.ActionListener() {
@@ -307,7 +307,7 @@ public class MainAdmin extends javax.swing.JFrame {
                 jButton13ActionPerformed(evt);
             }
         });
-        jPanel3.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(49, 360, 110, -1));
+        jPanel3.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 380, 110, -1));
 
         jPanel14.setBackground(new java.awt.Color(232, 201, 232));
 
@@ -330,7 +330,7 @@ public class MainAdmin extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel3.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 330, 110, -1));
+        jPanel3.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 340, 110, -1));
 
         jPanel16.setBackground(new java.awt.Color(232, 201, 232));
 
@@ -351,8 +351,8 @@ public class MainAdmin extends javax.swing.JFrame {
         jLabel1.setText("Dashboard");
         jPanel3.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 90, 110, -1));
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(96, 83, 150));
+        jLabel6.setFont(new java.awt.Font("SansSerif", 1, 36)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(108, 99, 255));
         jLabel6.setText("Welcome Admin");
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -370,11 +370,11 @@ public class MainAdmin extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(96, 83, 150));
+        jLabel10.setForeground(new java.awt.Color(108, 99, 255));
         jLabel10.setText("10");
 
         jLabel11.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(96, 83, 150));
+        jLabel11.setForeground(new java.awt.Color(108, 99, 255));
         jLabel11.setText("Total");
 
         jPanel11.setBackground(new java.awt.Color(232, 201, 232));
@@ -416,11 +416,11 @@ public class MainAdmin extends javax.swing.JFrame {
         jPanel5.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel12.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(96, 83, 150));
+        jLabel12.setForeground(new java.awt.Color(108, 99, 255));
         jLabel12.setText("270");
 
         jLabel14.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(96, 83, 150));
+        jLabel14.setForeground(new java.awt.Color(108, 99, 255));
         jLabel14.setText("Total");
 
         jPanel12.setBackground(new java.awt.Color(232, 201, 232));
@@ -462,11 +462,11 @@ public class MainAdmin extends javax.swing.JFrame {
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(96, 83, 150));
+        jLabel15.setForeground(new java.awt.Color(108, 99, 255));
         jLabel15.setText("200");
 
         jLabel16.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(96, 83, 150));
+        jLabel16.setForeground(new java.awt.Color(108, 99, 255));
         jLabel16.setText("Total");
 
         jPanel15.setBackground(new java.awt.Color(232, 201, 232));
@@ -626,7 +626,7 @@ public class MainAdmin extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 20, Short.MAX_VALUE))
+                .addGap(0, 119, Short.MAX_VALUE))
             .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
@@ -651,10 +651,7 @@ public class MainAdmin extends javax.swing.JFrame {
 
     private void Button1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Button1MouseClicked
         // TODO add your handling code here:
-        onClick(Button1);
-        onLeaveClick(Button2);
-        onLeaveClick(Button3);
-        onLeaveClick(Button4);
+       
 
         //indicators
         Indicator1.setOpaque(true);
@@ -743,6 +740,10 @@ public class MainAdmin extends javax.swing.JFrame {
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         // TODO add your handling code here:
+        order ord = new order();
+        ord.setVisible(true);
+        this.setVisible(false);
+        
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
@@ -751,18 +752,31 @@ public class MainAdmin extends javax.swing.JFrame {
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
         // TODO add your handling code here:
+        demands d = new demands();
+        d.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_jButton10ActionPerformed
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
         // TODO add your handling code here:
+         provider sp = new provider();
+         sp.setVisible(true);
+         this.setVisible(false);
     }//GEN-LAST:event_jButton11ActionPerformed
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
         // TODO add your handling code here:
+        main m = new main();
+        m.setVisible(true);
+        this.setVisible(false);
+        
     }//GEN-LAST:event_jButton13ActionPerformed
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
         // TODO add your handling code here:
+         documentationClient sp = new documentationClient();
+         sp.setVisible(true);
+         this.setVisible(false);
     }//GEN-LAST:event_jButton12ActionPerformed
 
     /**
