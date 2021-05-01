@@ -6,7 +6,7 @@
 package stockmanagement;
 
 /**
- *
+ 
  * @author NIH VAN
  */
 public class ProviderLogin extends javax.swing.JFrame {
@@ -62,7 +62,7 @@ public class ProviderLogin extends javax.swing.JFrame {
         loginButton.setBackground(new java.awt.Color(108, 99, 255));
         loginButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         loginButton.setForeground(new java.awt.Color(255, 255, 255));
-        loginButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmanagement/files/loginButtonIcon.png"))); // NOI18N
+        loginButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmanagement/files/login_1.png"))); // NOI18N
         loginButton.setText("LOGIN");
         loginButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
