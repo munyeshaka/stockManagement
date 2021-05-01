@@ -73,7 +73,11 @@
                   <Component id="jButton3" min="-2" pref="34" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
                   <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
+                  <EmptySpace pref="73" max="32767" attributes="0"/>
+=======
                   <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+>>>>>>> 425e63d32ddb6d5bedbd716213172b33a9a875e2
               </Group>
           </Group>
         </DimensionLayout>

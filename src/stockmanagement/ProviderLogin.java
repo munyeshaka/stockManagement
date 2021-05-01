@@ -8,7 +8,7 @@ package stockmanagement;
 import javax.swing.JOptionPane;
 
 /**
- *
+ 
  * @author NIH VAN
  */
 public class ProviderLogin extends javax.swing.JFrame {

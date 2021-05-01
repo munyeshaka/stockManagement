@@ -124,7 +124,11 @@ public class loginClient extends javax.swing.JFrame {
                 .addComponent(jLabel3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel4)
+<<<<<<< HEAD
+                .addContainerGap(241, Short.MAX_VALUE))
+=======
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+>>>>>>> 425e63d32ddb6d5bedbd716213172b33a9a875e2
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel8)
@@ -185,6 +189,9 @@ public class loginClient extends javax.swing.JFrame {
                 .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(43, 43, 43)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+<<<<<<< HEAD
+                .addContainerGap(73, Short.MAX_VALUE))
+=======
                 .addGap(53, 53, 53))
         );
 
@@ -209,6 +216,7 @@ public class loginClient extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel42)
                 .addContainerGap())
+>>>>>>> 425e63d32ddb6d5bedbd716213172b33a9a875e2
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -313,8 +321,16 @@ public class loginClient extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+<<<<<<< HEAD
+=======
     private javax.swing.JPanel jPanel7;
+<<<<<<< HEAD
     private javax.swing.JPasswordField txtpassword;
     private javax.swing.JTextField txtusername;
+=======
+>>>>>>> 425e63d32ddb6d5bedbd716213172b33a9a875e2
+    private javax.swing.JPasswordField jPasswordField1;
+    private javax.swing.JTextField jTextField1;
+>>>>>>> 2646e5e14227e0563710d4c57e83e750f743cc37
     // End of variables declaration//GEN-END:variables
 }
